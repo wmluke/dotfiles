@@ -1,0 +1,1 @@
+alias push.aws="push;push.tags;git aws.push"

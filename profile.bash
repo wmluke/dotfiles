@@ -14,12 +14,12 @@ export EDITOR=vim
 export PS1='[\u: $(__git_ps1 "%s: ")\w]$ '
 #export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
-COMPLETION=~/Dropbox/bash_start/completion;
+COMPLETION=~/Dropbox/dotfiles/completion;
 for I in $COMPLETION/*; do
     . $I
 done
 
-ALIASES=~/Dropbox/bash_start/aliases;
+ALIASES=~/Dropbox/dotfiles/aliases;
 for I in $ALIASES/*; do
     . $I
 done
